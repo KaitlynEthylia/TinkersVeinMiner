@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.ethy.tinkers_vein_miner.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "mixins.tinkers_vein_miner.refmap.json",
+	"mixins": [
+		"VeinMiningLogicMixin"
+	],
+	"client": [
+	],
+	"minVersion": "0.8"
+}
