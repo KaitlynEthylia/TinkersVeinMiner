@@ -16,7 +16,6 @@ public class VeinMiningLogicMixin {
 		remap = false,
 		method = "veinMine(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V",
 		at = @At(
-			args = "log=true",
 			value = "INVOKE_ASSIGN",
 			remap = true,
 			target = "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;getItemEnchantmentLevel(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I",
