@@ -29,7 +29,7 @@ public class ModifierRecipeProvider extends RecipeProvider implements IRecipeHel
 			.setTools(TinkerTags.Items.HARVEST)
 			.addInput(Ingredient.of(Items.NETHER_BRICK))
 			.setMaxLevel(1)
-			.setSlots(SlotType.ABILITY, 1)
+			.setSlots(SlotType.ABILITY, 0)
 			.save(consumer, prefix(MODIFIER.getId(), folder));
 	}
 
